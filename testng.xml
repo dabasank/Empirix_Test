@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Suite" parallel="tests">
+  <test name="ChromeTest">
+    <parameter name="browser" value="Chrome"></parameter>
+    <classes>
+      <class name="com.empirix.test.FirstTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="FirefoxTest">
+    <parameter name="browser" value="FireFox"></parameter>
+    <classes>
+      <class name="com.empirix.test.FirstTest"/>
+    </classes>
+  </test> 
+</suite> <!-- Suite -->
