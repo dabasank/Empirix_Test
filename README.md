@@ -50,7 +50,7 @@ Alternatively, if the project involves Maven, following will be some of the chan
 
 	d) In the Build tab, provide the name of the XML Configuration file in the RooT POM
 	    field, usually it is pom.xml and in the Goals and Options field, write the MAVEN Goal.
-	    In this case, it should be “clean package”.	    
+	    In this case, it should be “clean test”.	    
  
 
 
